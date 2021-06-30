@@ -3,28 +3,39 @@
     text-decoration: none;
     float: right;
     margin-top: 40px;
-    font-family: futura;
+    font-family: sans-serif;
 }
 
 .topnav a {
     text-decoration: none;
     color: #494949;
     font-size: 11.12;
-    padding-right: 102px;
+    padding-right: 51px;
+    padding-left: 51px
     
 }
+
+#getintouch {
+    padding-right: 102px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+  }
+  
 
 #portfolio {
     display: inline-block;
     margin-top: 40px;
     margin-left: 145px;
     font-family: Futura;
-    font-size: 29.12;
+    font-size: 2em;
     
 }
 
         .heroImage {
-            background-image: url(../Images/HeroImage.png);
+            background-image: url(../Images/portfoliobackground.png);
             background-size: cover;
             height: 100%;
             
@@ -36,7 +47,7 @@
         
         .bg {
             /* The image used */
-            background-image: url(../Images/HeroImage.png);
+            background-image: url(../Images/portfoliobackground.png);
         
             /* Full height */
             height: 100%;
@@ -52,35 +63,61 @@ body {
     padding: 0;
 }
 
+#herotextbox {
+    display:flex;
+    text-align:center;
+    justify-content: center;
+}
+
 #heroText1 {
     font-family: Futura;
     font-size: 1.8em;
     color: white;
-    display: flex;
-    position: absolute;
-    left: 500px;
-    top: 180px;
+    justify-content: center;
+    text-align: center;
+    left: 700px;
+    top: 290px;
+
 }
 
 #heroText2 {
     font: 17em "futura", sans-serif;
     color: whitesmoke;
     letter-spacing: 153px;
-    display: flex;
     justify-content: center;
     text-align: center;
     box-sizing:border-box;
+    border: red;
 }
 
 .html body {
     height: 100%;
 }
-/* About Me */
+
+/**************************** About Me *****************************/
 
 .profile {
-    width: 20%;
+    width: 60%;
+    border-radius: 300px;
+    margin: 256px;
+
+    
 }
 
 .AboutMe {
-    background-color: aquamarine;
+    background-color: #FFFEF8;
+}
+
+#wrapper {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+#wrapper p {
+    justify-content: space-between;
+    padding: 50px;
+    font-size: 1.8em;
+    font-family: futura;
+    color: #696969;
 }

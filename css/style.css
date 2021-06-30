@@ -1,0 +1,86 @@
+/* Above the Fold */
+.topnav {
+    text-decoration: none;
+    float: right;
+    margin-top: 40px;
+    font-family: futura;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: #494949;
+    font-size: 11.12;
+    padding-right: 102px;
+    
+}
+
+#portfolio {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 145px;
+    font-family: Futura;
+    font-size: 29.12;
+    
+}
+
+        .heroImage {
+            background-image: url(../Images/HeroImage.png);
+            background-size: cover;
+            height: 100%;
+            
+        }
+
+        body, html {
+            height: 100%;
+        }
+        
+        .bg {
+            /* The image used */
+            background-image: url(../Images/HeroImage.png);
+        
+            /* Full height */
+            height: 100%;
+        
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#heroText1 {
+    font-family: Futura;
+    font-size: 1.8em;
+    color: white;
+    display: flex;
+    position: absolute;
+    left: 500px;
+    top: 180px;
+}
+
+#heroText2 {
+    font: 17em "futura", sans-serif;
+    color: whitesmoke;
+    letter-spacing: 153px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing:border-box;
+}
+
+.html body {
+    height: 100%;
+}
+/* About Me */
+
+.profile {
+    width: 20%;
+}
+
+.AboutMe {
+    background-color: aquamarine;
+}

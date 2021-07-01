@@ -97,27 +97,59 @@ body {
 /**************************** About Me *****************************/
 
 .profile {
-    width: 60%;
+    width: 45%;
     border-radius: 300px;
-    margin: 256px;
-
+    margin-top: 45px;
+    margin-left: 300px;
     
 }
 
 .AboutMe {
     background-color: #FFFEF8;
+    height: 902px;
 }
 
 #wrapper {
     display: flex;
-    margin: 50px;
+    margin-top: 300px;
+    padding-right: 300px;
     justify-content: space-between;
 }
 
 #wrapper p {
     justify-content: space-between;
-    padding: 50px;
+    padding: 25px;
     font-size: 1.8em;
     font-family: futura;
     color: #696969;
+}
+
+/**************************** What I do *****************************/
+
+
+#description {
+    height: 905px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url(../Images/rectangle64.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 2000px;
+}
+
+#description h4 {
+    margin-top: 0;
 }

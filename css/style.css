@@ -47,7 +47,7 @@ a:hover {
         
         .bg {
             /* The image used */
-            background-image: url(../Images/portfoliobackground.png);
+            background-image: url(../Images/rectangle);
         
             /* Full height */
             height: 100%;
@@ -131,25 +131,34 @@ body {
     height: 905px;
 }
 
-body, html {
-    height: 100%;
-}
-
-.bg {
-    /* The image used */
-    background-image: url(../Images/rectangle64.png);
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
+#description {
+    background-image: url(../Images/Rectangle64.png);
     background-size: cover;
-    position: relative;
-    margin-top: 2000px;
+    height: 100%;
 }
 
-#description h4 {
-    margin-top: 0;
+.boxed {
+    width: 1213px;
+    height: 637px;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriptors {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: futura;
+    color: #696969;
+}
+
+.boxed h4 {
+    color: #696969;
+    margin: 0;
+    font-family: futura;
+}
+
+#flexbox {
+    display: flex;
 }

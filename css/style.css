@@ -138,27 +138,48 @@ body {
 }
 
 .boxed {
+    display: grid;
     width: 1213px;
     height: 637px;
     background-color: #FFFFFF;
     align-items: center;
-    justify-content: center;
+    grid-template-columns: 50% 50%;
+    
 }
 
 .descriptors {
     align-items: center;
     justify-content: center;
-    margin: 0;
     font-family: futura;
     color: #696969;
+    font-size: 1.8em;
+    margin: 46px;
 }
 
 .boxed h4 {
     color: #696969;
-    margin: 0;
     font-family: futura;
 }
 
-#flexbox {
-    display: flex;
+/**************************** MY WORK *****************************/
+
+#footer {
+    background-color:#FFFEF8;
+    height: 860px;
+    font-size: 1.8em;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerdirection {
+    font-family: futura;
+    flex-direction: column;
+    color: #696969;
+    align-items: center;
+
+}
+

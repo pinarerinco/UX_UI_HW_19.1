@@ -65,8 +65,10 @@ body {
 
 #herotextbox {
     display:flex;
-    text-align:center;
+    text-align:left;
     justify-content: center;
+    margin-top: 200px;
+    flex-direction: column;
 }
 
 #heroText1 {
@@ -74,7 +76,8 @@ body {
     font-size: 1.8em;
     color: white;
     justify-content: center;
-    text-align: center;
+    text-align: left;
+    margin-left: 289px;
     left: 700px;
     top: 290px;
 
@@ -88,6 +91,8 @@ body {
     text-align: center;
     box-sizing:border-box;
     border: red;
+    margin: 0px;
+    padding-left: 200px;
 }
 
 .html body {

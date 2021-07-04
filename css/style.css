@@ -166,7 +166,7 @@ body {
     font-family: futura;
 }
 
-/**************************** MY WORK *****************************/
+/**************************** FOOTER *****************************/
 
 #footer {
     background-color:#FFFEF8;
@@ -185,7 +185,7 @@ body {
     flex-direction: row;
     color: #696969;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 300px;
     margin-bottom: 50px;
 }
 
@@ -222,4 +222,30 @@ body {
     margin-top: 20px;
 }
 
+/**************************** MY SKILLS *****************************/
 
+#myskills {
+    background-color:#FFFEF8;
+    height: 860px;
+}
+
+.table {
+    margin: 350px;
+    font-family: futura;
+    font-size: 1.8em;
+    color: #696969;
+}
+
+.table td {
+    padding: 20px;
+}
+
+.table hr {
+    height: 3px;
+    background-color: #696969;
+    border: none;
+}
+
+.dimline {
+    color: #c4c4c4;
+}

@@ -31,6 +31,7 @@ a:hover {
     margin-left: 145px;
     font-family: Futura;
     font-size: 2em;
+    color: #494949;
     
 }
 
@@ -166,6 +167,55 @@ body {
     font-family: futura;
 }
 
+
+/**************************** MY WORK *****************************/
+
+#mywork {
+    font: futura;
+    color: #696969;
+}
+
+h2 {
+    color: #696969;
+    font-size: 4.7em;
+    font-family: futura;
+    margin-left: 80px;
+}
+
+#mywork div {
+
+}
+
+
+#mywork h3 {
+    font-size:
+}
+
+
+/**************************** MY SKILLS *****************************/
+
+#myskills {
+    background-color:#FFFEF8;
+    height: 860px;
+}
+
+#table {
+    margin: 350px;
+    font-family: futura;
+    font-size: 1.8em;
+    color: #696969;
+}
+
+#table td {
+    padding: 20px;
+}
+
+#table hr {
+    height: 3px;
+    background-color: #696969;
+    border: none;
+}
+
 /**************************** FOOTER *****************************/
 
 #footer {
@@ -220,32 +270,4 @@ body {
 
 .lines hr {
     margin-top: 20px;
-}
-
-/**************************** MY SKILLS *****************************/
-
-#myskills {
-    background-color:#FFFEF8;
-    height: 860px;
-}
-
-.table {
-    margin: 350px;
-    font-family: futura;
-    font-size: 1.8em;
-    color: #696969;
-}
-
-.table td {
-    padding: 20px;
-}
-
-.table hr {
-    height: 3px;
-    background-color: #696969;
-    border: none;
-}
-
-.dimline {
-    color: #c4c4c4;
 }

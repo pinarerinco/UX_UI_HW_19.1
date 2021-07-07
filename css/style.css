@@ -58,6 +58,7 @@ a:hover {
             height: 100%;
             
         }
+        
 
         body, html {
             height: 100%;
@@ -223,6 +224,8 @@ h2 {
     background-image: url(../Images/plantpal.png);
     background-size: cover;
     height: 100%;
+    margin-right: 8%;
+    height: 1200px;
 }
 
 /**************************** MY SKILLS *****************************/

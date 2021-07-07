@@ -176,7 +176,7 @@ body {
     justify-content: center;
     font-family: futura;
     color: #696969;
-    font-size: 1.8em;
+    font-size: 28pt;
     margin: 46px;
 }
 
@@ -195,7 +195,7 @@ body {
 
 h2 {
     color: #696969;
-    font-size: 4.7em;
+    font-size: 75pt;
     font-family: futura;
     margin-left: 80px;
 }
@@ -217,7 +217,7 @@ h2 {
 }
 
 #mywork h3 {
-    font-size: 2.9em;
+    font-size: 46pt;
 }
 
 .plantpal {

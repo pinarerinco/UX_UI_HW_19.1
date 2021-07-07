@@ -26,7 +26,7 @@ body, html {
 .topnav a {
     text-decoration: none;
     color: #494949;
-    font-size: 11.12;
+    font-size: 11.12pt;
     padding-right: 51px;
     padding-left: 51px
     
@@ -47,7 +47,7 @@ a:hover {
     margin-top: 40px;
     margin-left: 145px;
     font-family: Futura;
-    font-size: 2em;
+    font-size: 32pt;
     color: #494949;
     
 }
@@ -92,7 +92,7 @@ body {
 
 #heroText1 {
     font-family: Futura;
-    font-size: 1.8em;
+    font-size: 28.8pt;
     color: white;
     justify-content: center;
     text-align: left;
@@ -103,7 +103,7 @@ body {
 }
 
 #heroText2 {
-    font: 17em "futura", sans-serif;
+    font: 200pt "futura", sans-serif;
     color: whitesmoke;
     letter-spacing: 153px;
     justify-content: center;
@@ -143,7 +143,7 @@ body {
 #wrapper p {
     justify-content: space-between;
     padding: 25px;
-    font-size: 1.8em;
+    font-size: 28pt;
     font-family: futura;
     color: #696969;
 }

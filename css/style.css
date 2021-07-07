@@ -84,34 +84,35 @@ body {
 
 #herotextbox {
     display:flex;
-    text-align:left;
+    text-align:right;
     justify-content: center;
-    margin-top: 200px;
     flex-direction: column;
 }
 
 #heroText1 {
-    font-family: Futura;
+    font-family: futura;
     font-size: 28.8pt;
     color: white;
     justify-content: center;
     text-align: left;
-    margin-left: 289px;
-    left: 700px;
-    top: 290px;
+    margin-left: 275pt;
+    margin-top: 150pt;
 
 }
 
 #heroText2 {
-    font: 200pt "futura", sans-serif;
     color: whitesmoke;
-    letter-spacing: 153px;
-    justify-content: center;
-    text-align: center;
+    letter-spacing: 153pt;
     box-sizing:border-box;
     border: red;
-    margin: 0px;
-    padding-left: 200px;
+    justify-content: center;
+}
+
+#heroText2 h1 {
+    font-family: futura;
+    font-size: 100pt;
+    margin: 0pt;
+    margin-right: 50pt;
 }
 
 .html body {
@@ -120,10 +121,17 @@ body {
 
 /**************************** About Me *****************************/
 
+#wrapper {
+    display: flex;
+    padding-right: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .profile {
     width: 45%;
     border-radius: 300px;
-    margin-top: 45px;
+    margin-top: ;
     margin-left: 300px;
     
 }
@@ -131,14 +139,10 @@ body {
 .AboutMe {
     background-color: #FFFEF8;
     height: 902px;
+    display: flex;
+    justify-content: center;
 }
 
-#wrapper {
-    display: flex;
-    margin-top: 300px;
-    padding-right: 300px;
-    justify-content: space-between;
-}
 
 #wrapper p {
     justify-content: space-between;

@@ -26,7 +26,7 @@ body, html {
 .topnav a {
     text-decoration: none;
     color: #494949;
-    font-size: 11.12pt;
+    font-size: 8.34pt;
     padding-right: 51px;
     padding-left: 51px
     
@@ -47,7 +47,7 @@ a:hover {
     margin-top: 40px;
     margin-left: 145px;
     font-family: Futura;
-    font-size: 32pt;
+    font-size: 21.84pt;
     color: #494949;
     
 }
@@ -87,32 +87,37 @@ body {
     text-align:right;
     justify-content: center;
     flex-direction: column;
+
 }
 
 #heroText1 {
     font-family: futura;
-    font-size: 28.8pt;
+    font-size: 21.84pt;
     color: white;
     justify-content: center;
     text-align: left;
-    margin-left: 275pt;
-    margin-top: 150pt;
+    margin-left: 153pt;
+    margin-top: 60pt;
+    padding-bottom: 0pt;
 
 }
 
 #heroText2 {
     color: whitesmoke;
-    letter-spacing: 153pt;
+    letter-spacing: 64.9pt;
     box-sizing:border-box;
     border: red;
     justify-content: center;
+    font-family: futura;
+    
+    
 }
 
 #heroText2 h1 {
-    font-family: futura;
-    font-size: 75pt;
+    font-size: 150pt;
     margin: 0pt;
     margin-right: 50pt;
+    font-weight: lighter;
 }
 
 .html body {
@@ -123,7 +128,7 @@ body {
 
 #wrapper {
     display: flex;
-    padding-right: 300px;
+    padding-right: 150pt;
     justify-content: space-between;
     align-items: center;
 }
@@ -131,7 +136,6 @@ body {
 .profile {
     width: 45%;
     border-radius: 300px;
-    margin-top: ;
     margin-left: 300px;
     
 }
@@ -147,7 +151,7 @@ body {
 #wrapper p {
     justify-content: space-between;
     padding: 25px;
-    font-size: 28pt;
+    font-size: 21.84pt;
     font-family: futura;
     color: #696969;
 }
@@ -157,21 +161,26 @@ body {
 
 #description {
     height: 905px;
+    display: flex;
+    align-items: center;
 }
 
 #description {
     background-image: url(../Images/Rectangle64.png);
     background-size: cover;
     height: 100%;
+    justify-content: center;
 }
 
 .boxed {
     display: grid;
     width: 1213px;
-    height: 637px;
-    background-color: #FFFFFF;
+    height: 550px;
+    background: rgba(255, 255, 255, 0.7);
     align-items: center;
     grid-template-columns: 50% 50%;
+
+
     
 }
 
@@ -180,13 +189,28 @@ body {
     justify-content: center;
     font-family: futura;
     color: #696969;
-    font-size: 28pt;
+    font-size: 21.84pt;
     margin: 46px;
+}
+
+.descriptors2 {
+    align-items: center;
+    justify-content: center;
+    font-family: futura;
+    color: #696969;
+    font-size: 21.84pt;
+    margin-right: 46px;
+    margin-bottom: 110px;
 }
 
 .boxed h4 {
     color: #696969;
     font-family: futura;
+    margin-top: 0px;
+}
+
+#underline {
+    text-decoration: underline;
 }
 
 
@@ -199,7 +223,7 @@ body {
 
 h2 {
     color: #696969;
-    font-size: 75pt;
+    font-size: 57pt;
     font-family: futura;
     margin-left: 80px;
 }
@@ -216,20 +240,25 @@ h2 {
 }
 
 .mywork div {
-    justify-content: left;
+    justify-content: center;
     margin-left: 5%;
 }
 
 #mywork h3 {
-    font-size: 46pt;
+    font-size: 35.33pt;
+    font-weight: lighter;
 }
 
 .plantpal {
     background-image: url(../Images/plantpal.png);
-    background-size: cover;
-    height: 100%;
-    margin-right: 8%;
-    height: 1200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 40%;
+    height: 500px;
+
+    
+    
+
 }
 
 /**************************** MY SKILLS *****************************/

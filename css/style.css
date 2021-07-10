@@ -251,10 +251,13 @@ h2 {
 
 .plantpal {
     background-image: url(../Images/plantpal.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-right: 40%;
     height: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    width: 1200px;
 
     
     

@@ -100,7 +100,7 @@ body {
 
 #heroText2 {
     color: whitesmoke;
-    letter-spacing: 64.9pt;
+    letter-spacing: 103.5pt;
     box-sizing:border-box;
     border: red;
     justify-content: center;
@@ -110,7 +110,7 @@ body {
 }
 
 #heroText2 h1 {
-    font-size: 150pt;
+    font-size: 40pt;
     margin: 0pt;
     margin-right: 50pt;
     font-weight: lighter;
@@ -681,5 +681,7 @@ body {
     #mywork h3 {
         font-size: 19pt;
     }
+
+
 
 }

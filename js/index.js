@@ -33,7 +33,20 @@ cta.click(function(){
         $(this).effect("bounce", { times:5 }, 300);
   });
 
+//Typing Animation
+
+  var typed = new Typed('.type', {
+    strings: ['PINAR',
+  'PINAR',
+  'PINAR'
+  ],
+    typeSpeed: 200,
+    backSpeed: 100,
+    loop: true
+  });
+
+  
+
 });
 
-/// Button Bounce
 

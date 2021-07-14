@@ -88,23 +88,24 @@ body {
 
 #heroText1 {
     font-family: futura;
-    font-size: 21.84pt;
+    font-size: pt;
     color: white;
     justify-content: center;
     text-align: left;
-    margin-left: 153pt;
-    margin-top: 60pt;
+    margin-left: 230pt;
+    margin-top: 90pt;
     padding-bottom: 0pt;
 
 }
 
 #heroText2 {
-    color: whitesmoke;
-    letter-spacing: 103.5pt;
+    color: white;
+    letter-spacing: 122.5pt;
     box-sizing:border-box;
     border: red;
     justify-content: center;
     font-family: futura;
+    margin-top: 50pt;
     
     
 }
@@ -112,7 +113,7 @@ body {
 #heroText2 h1 {
     font-size: 40pt;
     margin: 0pt;
-    margin-right: 50pt;
+    margin-left: 227pt;
     font-weight: lighter;
 }
 
@@ -122,13 +123,13 @@ body {
     justify-content: center;
     flex-direction: column;
     font-family: futura;
-    margin-top: 85px;
+    margin-top: 200px;
     
 }
 
 #cta a {
     margin-bottom: 15px;
-    color: whitesmoke;
+    color: white;
     text-decoration: none;
 }
 

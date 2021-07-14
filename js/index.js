@@ -45,7 +45,10 @@ cta.click(function(){
     loop: true
   });
 
-  
+
+  $("#button")
+  .animate({ marginTop: "40px" }, 1500 )
+  .animate({ marginTop: "20px" }, 200 );
 
 });
 

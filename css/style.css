@@ -26,7 +26,7 @@ body, html {
 .topnav a {
     text-decoration: none;
     color: #494949;
-    font-size: 8.34pt;
+    font-size: 11pt;
     padding-right: 51px;
     padding-left: 51px
     
@@ -36,10 +36,6 @@ body, html {
     padding-right: 102px;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: whitesmoke;
-  }
   
 
 #portfolio {
@@ -120,6 +116,22 @@ body {
     font-weight: lighter;
 }
 
+#cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: futura;
+    margin-top: 85px;
+    
+}
+
+#cta a {
+    margin-bottom: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 .html body {
     height: 100%;
 }
@@ -177,7 +189,7 @@ body {
     width: 1213px;
     height: 550px;
     background: rgba(255, 255, 255, 0.7);
-    align-items: center;
+    
     grid-template-columns: 50% 50%;
 
 
@@ -193,20 +205,31 @@ body {
     margin: 46px;
 }
 
+.descriptors p {
+    font-size: 18pt;
+    line-height: 40px;
+}
+
+
 .descriptors2 {
     align-items: center;
     justify-content: center;
     font-family: futura;
     color: #696969;
     font-size: 21.84pt;
-    margin-right: 46px;
-    margin-bottom: 110px;
+    margin: 46px;
+
+}
+
+.descriptors2 li {
+    font-size: 18pt;
+    line-height: 60px;
+    
 }
 
 .boxed h4 {
     color: #696969;
     font-family: futura;
-    margin-top: 0px;
 }
 
 #underline {
@@ -217,129 +240,446 @@ body {
 /**************************** MY WORK *****************************/
 
 #mywork {
-    font: futura;
+    font-family: futura;
     color: #696969;
+    background-color: #FFFEF8;
 }
 
-h2 {
+
+#small {
+    display: flex;
+    flex-direction: row;
+}
+
+#mywork h2 {
     color: #696969;
     font-size: 57pt;
     font-family: futura;
-    margin-left: 80px;
+    margin-left: 60px;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 #mywork div {
  font: futura;
+ justify-content: left;
 }
 
-
 .mywork {
-    font-family: futura;
+    margin-left: 5%;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
+}
+
+.small {
+    margin-left: 235px;
+}
+
+.mywork small {
+    font-family: futura;
+    justify-content: left;
 }
 
 .mywork div {
     justify-content: center;
-    margin-left: 5%;
 }
 
 #mywork h3 {
     font-size: 35.33pt;
     font-weight: lighter;
+    margin-bottom: 50px;
 }
+
+
+
+
+/******** birdlife *********/
+
+.birdlife {
+    background-image: url(../Images/birdlife.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    background-position: 70px 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+.birdlifecontent {
+    width: 300px;
+    position: relative;
+    left: 110px;
+    top: 100px;
+    line-height: 30px;
+
+}
+
+.birdlife h4{
+    font-size: 21.84pt;
+    margin: 0;
+}
+
+.birdlife p {
+    width: 300px;
+}
+
+.birdlife hr {
+    height: 3px;
+    background-color: #82A1A6;
+    border: none;
+    margin-top: 22px;
+}
+
+/******** wayfarer *********/
+
+.wayfarer {
+    background-image: url(../Images/wayfarer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1200px;
+    background-position: 70px 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.wayfarer h4 {
+    font-size: 21.84pt;
+    margin: 0;
+}
+
+.wayfarer hr {
+    margin-top: 22px;
+    border: none;
+    background-color: white;
+    height: 3px;
+}
+
+.wayfarercontent {
+    width: 300px;
+    position: relative;
+    float: right;
+    right: 110px;
+    top: 135px;
+    color: white;
+    line-height: 30px;
+
+}
+
+.arrowimage {
+    position: relative;
+    float: right;
+}
+
+
+
+/******** plantpal *********/
 
 .plantpal {
     background-image: url(../Images/plantpal.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 40%;
-    height: 500px;
-    margin: auto;
-    border: 3px solid #73AD21;
+    height: 700px;
     width: 1200px;
+    background-position: 70px 0px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
 
-    
-    
+.plantpalcontent {
+    width: 300px;
+    position: relative;
+    left: 130px;
+    top: 200px;
+    line-height: 30px;
+    color: white;
 
 }
+
+.plantpal h4{
+    font-size: 21.84pt;
+    margin: 0;
+}
+
+.plantpal p {
+    width: 250px;
+}
+
+.plantpal hr {
+    height: 3px;
+    background-color: white;
+    border: none;
+    margin-top: 22px;
+}
+
+
 
 /**************************** MY SKILLS *****************************/
 
 #myskills {
     background-color:#FFFEF8;
     height: 860px;
+    display: flex;
+    flex-direction: column;
+}
+
+#myskills h2 {
+    font-family: futura;
+    margin-top: 0px;
+    color: #696969;
+    font-size: 57pt;
+    margin-left: 5%;
+    margin-top: 100px;
 }
 
 #table {
-    margin: 350px;
     font-family: futura;
-    font-size: 1.8em;
+    font-size: 21.84pt;
     color: #696969;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
 }
 
 #table td {
     padding: 20px;
+   
 }
 
 #table hr {
     height: 3px;
-    background-color: #696969;
     border: none;
+    
 }
+
+.darkgrey {
+    background-color: #696969;
+}
+
+.lightgrey {
+    background-color: #c4c4c4;
+}
+
 
 /**************************** FOOTER *****************************/
 
 #footer {
     background-color:#FFFEF8;
-    height: 860px;
-    font-size: 1.8em;
+    height: 800px;
+    font-size: 21.84pt;
+    color: #696969;
+    font-family: futura;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer p {
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+
+}
+
+.footerp {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 200px;
+    padding-top: 540px;
+}
+
+#footer hr {
+    background-color: #696969;
+    border: none;
+    height: 1px;
+
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FFFEF8;
 }
 
-.footerdirection {
+#footerdirection {
     font-family: futura;
-    flex-direction: row;
     color: #696969;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.footerdirection h3 {
+#footerdirection h3 {
     text-align: center;
-    margin-bottom: 100px;
-    font-size: 2.9em;
+    margin-bottom: 60px;
+    font-size: 57pt;
 }
 
-.footerdirection p {
+#footerdirection p {
     text-align: center;
 }
 
-.small {
-    display: flex;
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 120px;
+    margin-top: 100px;
+
+}
+
+.container div {
+    display:flex;
     justify-content: center;
-    justify-content: space-around;
 }
 
-.small small {
-    justify-content: space-around;
-    padding-top: 40px;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 120px;
-    font-family:sans-serif;
+@media only screen and (max-width: 1100px) {
+    .topnav {
+        text-decoration: none;
+        float: right;
+        margin-top: 10px;
+        font-family: sans-serif;
+    }
+
+    .topnav a {
+        text-decoration: none;
+        color: #494949;
+        font-size: 5pt;
+        padding-right: 45px;
+        padding-left: 45px
+    }
+
+    #portfolio {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 60px;
+        font-family: Futura;
+        font-size: 15pt;
+        color: #494949;
+        
+    }
 }
 
-.lines {
-    display: flex;
-}
+@media only screen and (max-width: 650px) {
+    #heroText2 h1 {
+        font-size: 50pt;
+        letter-spacing: 30pt;
+        justify-content: center;
+    }
 
-.lines hr {
-    margin-top: 20px;
+    #heroText2 {
+
+    font-size: 15pt;
+    color: white;
+    justify-content: center;
+    text-align: left;
+    margin-left: 100pt;
+    margin-top: 40pt;
+    padding-bottom: 0pt;
+
+    }
+
+    .topnav {
+        text-decoration: none;
+        float: right;
+        margin-top: 10px;
+        font-family: sans-serif;
+    }
+
+    .topnav a {
+        text-decoration: none;
+        color: #494949;
+        font-size: 5pt;
+        padding-right: 15px;
+        padding-left: 15px
+    }
+
+    #portfolio {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 60px;
+        font-family: Futura;
+        font-size: 17pt;
+        color: #494949;
+    }
+
+    #wrapper {
+        display: flex;
+        padding-right: 10pt;
+        justify-content: space-between;
+    }
+    
+    .profile {
+        width: 45%;
+        border-radius: 300px;
+        margin-right: 20px;
+        float: left;
+        
+    }
+
+    #wrapper p {
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 15pt;
+    
+    }
+
+    #description {
+        background-image: url(../Images/Rectangle64.png);
+        background-size: cover;
+        height: 50%;
+        height: 450px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .boxed {
+        display: grid;
+        width: 350px;
+        height: 400px;
+        background: rgba(255, 255, 255, 0.7);
+        
+        grid-template-rows: 50% 50%;
+        
+    }
+
+    .descriptors p {
+        font-size: 13pt;
+        line-height: 20px;
+    }
+
+    .descriptors2 {
+        font-size: 15pt;
+        margin: 15px;
+    
+    }
+
+    .descriptors {
+        font-size: 15pt;
+        margin: 46px;
+    }
+    
+    .descriptors2 li {
+        font-size: 13pt;
+        line-height: 30px;
+        
+    }
+
+
+    #mywork h2 {
+        font-size: 25pt;
+        margin-left: 20px;
+    }
+
+    #mywork h3 {
+        font-size: 19pt;
+    }
+
 }

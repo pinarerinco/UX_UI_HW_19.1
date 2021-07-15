@@ -137,20 +137,43 @@ body {
     height: 100%;
 }
 
+.button {
+    transition: transform 1s;
+}
+
+#cta:hover .button {
+    transform: translateY(100%);
+    animation: top-down 1s ease-in;
+}
+
+/**#button {
+ animation: button .7s infinite;
+  }
+
+#button
+
+@keyframes button {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+
+  
+
 /**************************** About Me *****************************/
 
-#wrapper {
-    display: flex;
-    padding-right: 150pt;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .profile {
     width: 45%;
     border-radius: 300px;
     margin-left: 300px;
     
+}
+
+#wrapper {
+    display: flex;
+    padding-right: 150pt;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .aboutMe {

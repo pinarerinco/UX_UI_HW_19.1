@@ -7,6 +7,8 @@ $(document).ready(function(){
         $(this).css("text-decoration", "none"). css("color", "#494949");
       });
 
+
+      
 // Scroll Code
 
 var scrollLink = $(".scroll");
@@ -55,6 +57,14 @@ cta.click(function(){
   });
 
 
+
+/// Chevron Move animation
+
+  //$("button").click( function(){
+    //   $("#button").animate( {top: '5000px'}, 3000 );
+  //});
+  
+  
 
 
 });

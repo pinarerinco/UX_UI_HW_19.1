@@ -58,12 +58,6 @@ cta.click(function(){
 
 
 
-/// Chevron Move animation
-
-  //$("button").click( function(){
-    //   $("#button").animate( {top: '5000px'}, 3000 );
-  //});
-  
   
 
 

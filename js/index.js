@@ -29,9 +29,18 @@ cta.click(function(){
 
     });
 
-    $("#button").hover(function(){
-        $(this).effect("bounce", { times:5 }, 300);
-  });
+
+    var button = $(".button");
+
+    button.click(function(){
+        $("body,html").animate({
+            scrollTop: $(this.hash).offset().top
+        }, 800 )
+    
+        });
+    
+
+
 
 //Typing Animation
 
@@ -46,9 +55,7 @@ cta.click(function(){
   });
 
 
-  $("#button")
-  .animate({ marginTop: "40px" }, 1500 )
-  .animate({ marginTop: "20px" }, 200 );
+
 
 });
 

@@ -2,9 +2,9 @@ $(document).ready(function(){
  
  // Hover Code
     $(".topnav a").hover(function(){
-        $(this).css("text-decoration", "underline").css("color", "white");
+        $(this).css("text-decoration", "underline",).css("color", "white");
         }, function(){
-        $(this).css("text-decoration", "none"). css("color", "#494949");
+        $(this).css("text-decoration", "none").css("color", "#494949");
       });
 
 
